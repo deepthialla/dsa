@@ -11,6 +11,8 @@ import java.util.List;
         and return an array of the non-overlapping intervals that cover all the intervals in the input.*/
 public class H02_MergeIntervals {
     public static void main(String[] args) {
+        // Solution: Youtube desi, has screenshot in phone
+
         int[][] intervals = {{1,3},{2,6},{8,10},{15,18}};
 
         //Over lapping
