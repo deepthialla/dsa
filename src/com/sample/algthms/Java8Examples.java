@@ -50,6 +50,8 @@ public class Java8Examples {
 
         // Sort by key / value in map
         // Sort two dimentional or one dimentional array
+        int[][] intervals = {{1,3},{2,6},{8,10},{15,18}};
+        Arrays.sort(intervals, Comparator.comparingInt( i -> i[0]));
     }
 
     private static Double calculateRewards(Double transAmt) {

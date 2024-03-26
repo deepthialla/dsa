@@ -18,7 +18,7 @@ public class H02_MergeIntervals {
         //Over lapping
         List<int[]> result = new ArrayList<>();
 
-        // Sort the array
+        // Sort the array - two dimentional
         Arrays.sort(intervals, Comparator.comparingInt( i -> i[0]));
 
         // Add first one to the result.
