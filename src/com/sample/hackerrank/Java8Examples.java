@@ -1,4 +1,6 @@
-package com.sample.algthms;
+package com.sample.hackerrank;
+
+import com.sample.algthms.Transaction;
 
 import java.util.*;
 import java.util.stream.Collectors;
@@ -52,6 +54,10 @@ public class Java8Examples {
         // Sort two dimentional or one dimentional array
         int[][] intervals = {{1,3},{2,6},{8,10},{15,18}};
         Arrays.sort(intervals, Comparator.comparingInt( i -> i[0]));
+
+        // List to primitive array
+        int[] arr = list.stream().mapToInt(i -> i).toArray();
+        int[] arr1 = list.stream().mapToInt(Integer::intValue).toArray();
     }
 
     private static Double calculateRewards(Double transAmt) {
