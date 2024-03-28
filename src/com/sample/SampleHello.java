@@ -6,7 +6,17 @@ import java.util.Set;
 public class SampleHello {
     public static void main(String[] args) {
 
-        System.out.println("");
+
+        String binaryString = Integer.toBinaryString(1);
+
+        System.out.println(binaryString);
+
+ /*       String binaryString2 = Integer.toBinaryString(8);
+        System.out.println(binaryString2);
+*/
+
+        System.out.println(1 << 2);
+        System.out.println(Integer.toBinaryString(1 << 2 ) );
 
 /*         String str = "abcdrf drf jkl";
          String find = "drf";
