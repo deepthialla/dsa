@@ -34,13 +34,13 @@ public class H05_AddTwoNumbersStoredInLinkedList {
         int num1 = 0;
         int num2 = 0;
 
-        // Navigate over first linked list and prepare first number.
+        // Navigate over first linked list and prepare first number. 123
         while(first.head != null) {
             num1 = num1 * 10 + first.head.data;
             first.head = first.head.next;
         }
 
-        // Navigate over second linked list and prepare second number.
+        // Navigate over second linked list and prepare second number. 456
         while(second.head != null) {
             num2 = num2 * 10 + second.head.data;
             second.head = second.head.next;
