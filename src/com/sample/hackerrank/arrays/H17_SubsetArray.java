@@ -57,6 +57,8 @@ public class H17_SubsetArray {
                 // are not
 /*                The symbol & denotes the bitwise AND operator. It evaluates the binary value of given numbers.
             The binary result of these numbers will be returned to us in base 10.*/
+                 //i: 101
+                 //j: 001
                 if ((i & (1 << j)) > 0)
                     System.out.print(set[j] + " ");
 
