@@ -1,4 +1,4 @@
-package com.sample.leetcode.parentheses.arrays;
+package com.sample.leetcode.arrays;
 
 // 442. Find All Duplicates in an Array
 
