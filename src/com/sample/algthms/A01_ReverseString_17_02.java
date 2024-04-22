@@ -1,4 +1,7 @@
 package com.sample.algthms;
+
+import java.util.Random;
+
 // Full reverse of string
 // output: ecalp wen a si sihT
 public class A01_ReverseString_17_02 {
